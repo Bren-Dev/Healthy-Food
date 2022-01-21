@@ -53,7 +53,7 @@ function Register() {
         </ContentRegister>
 
         <ContentImage>
-          <img src={ImageRegister} alt="" />
+          <img src={ImageRegister} alt="www.google.com" />
         </ContentImage>
       </ContentAllRegister>
     </Container>

@@ -20,7 +20,7 @@ function Recipes() {
       <DivRecipe2>
         <RecipeItem>
           <div>
-            <img src={food1} id="" alt="" />
+            <img src={food1} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
             <p>
@@ -34,7 +34,7 @@ function Recipes() {
         </RecipeItem>
         <RecipeItem>
           <div>
-            <img src={food2} id="" alt="" />
+            <img src={food2} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
             <p>
@@ -48,7 +48,7 @@ function Recipes() {
         </RecipeItem>
         <RecipeItem>
           <div>
-            <img src={food3} id="" alt="" />
+            <img src={food3} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
             <p>
@@ -63,7 +63,7 @@ function Recipes() {
 
         <RecipeItem>
           <div>
-            <img src={food4} id="" alt="" />
+            <img src={food4} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
             <p>

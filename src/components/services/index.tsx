@@ -6,7 +6,7 @@ function Services() {
   return (
     <ContentServices>
       <div>
-        <img src={services} id="illustration" alt="" />
+        <img src={services} id="illustration" alt="www.google.com" />
       </div>
       <DivService>
         <h1>

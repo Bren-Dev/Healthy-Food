@@ -20,56 +20,56 @@ const responsive = {
 const items = [
     <DivCard data-value="1">
       <TitleBlog>
-        <img src={block1} alt="" />
+        <img src={block1} alt="www.google.com" />
         <h1>
           Quick-start guide
           <br /> to nuts and seeds
         </h1>
       </TitleBlog>
       <Profile>
-        <img src={avatar1} id="avatar" alt="" />
+        <img src={avatar1} id="avatar" alt="www.google.com" />
         <p>Kevin Ibrahim</p>
       </Profile>
     </DivCard>
     ,
     <DivCard data-value="2">
       <TitleBlog>
-        <img src={block2} alt="" />
+        <img src={block2} alt="www.google.com" />
         <h1>
           Nutrition: Tips for <br />
           Improving Your Health
         </h1>
       </TitleBlog>
       <Profile>
-        <img src={avatar2} id="avatar" alt="" />
+        <img src={avatar2} id="avatar" alt="www.google.com" />
         <p>Mike Jackson</p>
       </Profile>
     </DivCard>
     ,
     <DivCard data-value="3">
       <TitleBlog>
-        <img src={block3} alt="" />
+        <img src={block3} alt="www.google.com" />
         <h1>
           The top 10 benefits <br />
           of eating healthy
         </h1>
       </TitleBlog>
       <Profile>
-        <img src={avatar3} id="avatar" alt="" />
+        <img src={avatar3} id="avatar" alt="www.google.com" />
         <p>Bryan McGregor</p>
       </Profile>
     </DivCard>
     ,
     <DivCard data-value="4">
       <TitleBlog>
-        <img src={block4} alt="" />
+        <img src={block4} alt="www.google.com" />
         <h1>
           Best Healthcare <br />
           in the World 2021
         </h1>
       </TitleBlog>
       <Profile>
-        <img src={avatar4} id="avatar" alt="" />
+        <img src={avatar4} id="avatar" alt="www.google.com" />
         <p>Joseph Gregor</p>
       </Profile>
     </DivCard>,
