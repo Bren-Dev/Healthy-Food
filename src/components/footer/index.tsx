@@ -1,8 +1,6 @@
 import React from "react";
 import { ContentFooter, JoinFooter, DivJoin, Copyright, DivButton} from "./styles";
 
-import imgFooter from "../../assets/bloco_final_image.svg";
-
 function Footer() {
   return (
     <ContentFooter>

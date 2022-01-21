@@ -26,7 +26,7 @@ export const DivService = styled.div`
   }
   p {
     color: #bcbcbc;
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 `;
 

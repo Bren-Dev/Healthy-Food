@@ -1,7 +1,6 @@
 import React from "react";
-import { ContentHeader, ContentLogo, Nav, DivSearch } from "./styles";
+import { ContentHeader, Nav, DivSearch } from "./styles";
 import { IoIosSearch } from "react-icons/io";
-import imgHeader from "../../assets/bloco_final_image.svg";
 import { Link } from "react-router-dom";
 function Header() {
   return (

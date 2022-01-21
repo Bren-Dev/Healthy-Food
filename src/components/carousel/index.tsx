@@ -3,8 +3,6 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { DivCard, TitleBlog, Profile } from "./styles";
 
-import { CgArrowLongRight } from "react-icons/cg";
-
 import block1 from "../../assets/blog_image_1.svg";
 import block2 from "../../assets/bloco_image_2.svg";
 import block3 from "../../assets/bloco_image_3.svg";
