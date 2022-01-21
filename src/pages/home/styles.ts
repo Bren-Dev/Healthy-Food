@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import services from "../../assets/bloco_services.svg";
 
 
 export const Container = styled.div`
