@@ -28,7 +28,7 @@ function Recipes() {
               <br /> with Bacon
             </p>
             <button>
-              <a href="#">See Recipe</a>
+              <a href="www.google.com">See Recipe</a>
             </button>
           </DivRecipeButton>
         </RecipeItem>
@@ -42,7 +42,7 @@ function Recipes() {
               <br /> Burgers
             </p>
             <button>
-              <a href="#">See Recipe</a>
+              <a href="www.google.com">See Recipe</a>
             </button>
           </DivRecipeButton>
         </RecipeItem>
@@ -56,7 +56,7 @@ function Recipes() {
               <br /> Salad
             </p>
             <button>
-              <a href="#">See Recipe</a>
+              <a href="www.google.com" >See Recipe</a>
             </button>
           </DivRecipeButton>
         </RecipeItem>
@@ -71,7 +71,7 @@ function Recipes() {
               <br /> on the Grill
             </p>
             <button>
-              <a href="#">See Recipe</a>
+              <a href="www.google.com">See Recipe</a>
             </button>
           </DivRecipeButton>
         </RecipeItem>
