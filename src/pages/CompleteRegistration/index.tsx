@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 import cepApi from "../../services/cep-api";
 import InputMask from "react-input-mask";
 import {

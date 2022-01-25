@@ -7,49 +7,31 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 745px;
+  height: 55vw;
   img {
-    width: 295px;
+    width: 25vw;
   }
 `;
 export const ContentRegister = styled.div`
-  @media (max-width: 768px) {
-    width: 100%;
-    margin-left: 2rem;
-  }
   background-color: #ffffff;
   width: 40%;
-
-  margin-left: 7rem;
+  margin-left: 7vw;
+  border-radius:20px;
 `;
 export const DivRegister = styled.div`
-  /* background: linear-gradient(to left, #eeeef2 0%, #ffffff 4%); */
   border-radius: 20px;
-  box-shadow: 15px 15px 10px gray;
+  box-shadow: 1vw 1vw 0.7vw gray;
 `;
 export const ContentAllRegister = styled.div`
-  @media (max-width: 768px) {
-    width: 70%;
-  }
   border-radius: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  width: 80%;
-  height: 580px;
-  #linha-horizontal {
-    width: 300px;
-    border: 1px solid #c1e8ae;
-    background-color: #c1e8ae;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
+  width: 80vw;
+  height: 43vw;
 `;
 export const ContentImage = styled.div`
-  @media (max-width: 768px) {
-    display: block;
-    visibility: hidden;
-  }
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,31 +44,31 @@ export const ContentImage = styled.div`
 
 export const DivInput = styled.div`
   p {
-    font-size: 10px;
-    margin-bottom: 7px;
+    font-size: 0.8vw;
+    margin-bottom: 0.5vw;
     color: #000000;
   }
   input {
-    width: 200px;
+    width: 20vw;
+    height: 1vw;
     border: #e2efdc 1px solid;
     background-color: #e2efdc;
     border-radius: 4px;
-    padding-left: 10px;
+    padding-left: 0.8vw;
   }
 `;
 export const DivButton = styled.div`
-  @media (max-width: 768px) {
-    justify-content: space-around;
-  }
+
   display: flex;
   justify-content: space-between;
-  padding: 4rem;
+  padding: 2vw;
   a {
     text-decoration: none;
   }
   button {
-    width: 100px;
-    height: 40px;
+    font-size: 0.8vw;
+    width: 7vw;
+    height: 2vw;
     background-color: #81c962;
     border: 1px solid #81c962;
     border-radius: 23px;
@@ -101,11 +83,11 @@ export const WelcomeRegister = styled.div`
   h1 {
     color: rgba(129, 201, 98, 1);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5vw;
   }
   p {
     color: rgba(0, 0, 0, 0, 5);
-    font-size: 10px;
+    font-size: 0.8vw;
   }
 `;
 export const ContentInput = styled.div`
@@ -113,5 +95,5 @@ export const ContentInput = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 2vw;
 `;
