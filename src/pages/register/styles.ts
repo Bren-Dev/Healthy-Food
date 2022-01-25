@@ -11,6 +11,9 @@ export const Container = styled.div`
   img {
     width: 25vw;
   }
+  @media (max-width: 700px) {
+    height: 160vw;
+  }
 `;
 export const ContentRegister = styled.div`
   background-color: #ffffff;
