@@ -16,6 +16,7 @@ import { Link } from "react-router-dom";
 
 function Register() {
   return (
+    
     <Container>
       <ContentAllRegister>
         <ContentRegister>
@@ -57,6 +58,7 @@ function Register() {
         </ContentImage>
       </ContentAllRegister>
     </Container>
+  
   );
 }
 

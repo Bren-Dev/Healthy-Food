@@ -7,13 +7,13 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 55vw;
+  height: 48.5vw;
   img {
     width: 25vw;
   }
-  @media (max-width: 700px) {
-    height: 160vw;
-  }
+   @media (max-width: 768px) {
+    height: 190vw;
+  } 
 `;
 export const ContentRegister = styled.div`
   background-color: #ffffff;
