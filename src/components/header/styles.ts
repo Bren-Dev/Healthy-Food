@@ -9,17 +9,16 @@ export const ContentHeader = styled.div`
   h1 {
     color: #badc58;
     font-size: 3vw;
-    margin-left: 5vw;
+    margin-left: 10vw;
+    font-weight: 600;
   }
 
-  svg {
-    color: #ffffff;
-    width: 2vw;
-  }
   p {
     color: #1d164d;
-    font-size: 3vw;
-    font-weight: 1000;
+    font-size: 4vw;
+    letter-spacing: 0.2vw;
+    margin-bottom: 2vw;
+    font-weight: 700;
   }
 
   main * {
@@ -49,7 +48,6 @@ export const Nav = styled.div`
     width: 50%;
     display: flex;
     flex-direction: row;
-
     flex-wrap: wrap;
   }
 
@@ -72,10 +70,9 @@ export const Nav = styled.div`
   }
   #register {
     background-color: #ffffff;
-    border-radius: 6px;
-    font-weight: 800;
+    border-radius: 3px;
     width: 100%;
-    height: 3vw;
+    height: 3.8vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,7 +80,8 @@ export const Nav = styled.div`
       background-color: #ffffff;
       border: 1px solid #ffffff;
       color: #badc58;
-      font-size: 1vw;
+      font-weight: 700;
+      font-size: 1.1vw;
     }
   }
 `;
@@ -92,8 +90,8 @@ export const DivSearch = styled.div`
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5%;
-  width: 50%;
+  margin-left: 10vw;
+  width: 60%;
   z-index: 1000;
   div {
     width: 45%;
@@ -109,6 +107,7 @@ export const DivSearch = styled.div`
     padding-left: 1vw;
     color: #9e9baf;
     margin-right: 1vw;
+
   }
   button {
     display: flex;
@@ -116,10 +115,20 @@ export const DivSearch = styled.div`
     align-items: center;
     border-radius: 5px;
     font-size: 2vw;
-    width: 5vw;
-    height: 3vw;
+    width: 4vw;
+    height: 3.4vw;
     background-color: #badc58;
     border: 1px solid #badc58;
     color: #ffffff;
+
+    svg {
+      color: #ffffff;
+      width: 1.6vw;
+    }
+
+    @media (max-width: 768px) {
+      width: 6vw;
+      height: 4vw;
+    }
   }
 `;

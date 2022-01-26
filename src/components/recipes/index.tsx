@@ -23,13 +23,17 @@ function Recipes() {
             <img src={food1} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
+          <div>
             <p>
               Broccoli Salad
               <br /> with Bacon
             </p>
+            </div>
+            <div>
             <button>
               <a href="www.google.com">See Recipe</a>
             </button>
+            </div>
           </DivRecipeButton>
         </RecipeItem>
         <RecipeItem>
@@ -37,13 +41,17 @@ function Recipes() {
             <img src={food2} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
+            <div>
             <p>
             Classic Beef
               <br /> Burgers
             </p>
+            </div>
+            <div>
             <button>
               <a href="www.google.com">See Recipe</a>
             </button>
+            </div>
           </DivRecipeButton>
         </RecipeItem>
         <RecipeItem>
@@ -51,13 +59,17 @@ function Recipes() {
             <img src={food3} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
+          <div>
             <p>
               Classic Potato
               <br /> Salad
             </p>
+            </div>
+            <div>
             <button>
               <a href="www.google.com" >See Recipe</a>
             </button>
+            </div>
           </DivRecipeButton>
         </RecipeItem>
 
@@ -66,13 +78,17 @@ function Recipes() {
             <img src={food4} id="" alt="www.google.com" />
           </div>
           <DivRecipeButton>
+          <div>
             <p>
-              Cherry Cobbler
-              <br /> on the Grill
+              Cherry Cobbler<br />
+              on  the Grill
             </p>
+            </div>
+            <div>
             <button>
               <a href="www.google.com">See Recipe</a>
             </button>
+            </div>
           </DivRecipeButton>
         </RecipeItem>
 

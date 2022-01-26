@@ -25,8 +25,9 @@ export const DivService = styled.div`
     color: #2d3561;
   }
   p {
-    color: #bcbcbc;
+    color: #9e9baf;
     font-size: 1.5vw;
+    font-weight: 200;
   }
 `;
 

@@ -25,7 +25,6 @@ export const DivCard = styled.div`
   img {
     width: 100%;
   }
-  /* background-color: #ffffff; */
   background: linear-gradient(to top, #eeeef2 0%, #ffffff 4%);
 
   border-radius: 5px;
