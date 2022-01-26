@@ -45,13 +45,13 @@ export const RecipeItem = styled.div`
 `;
 
 export const DivRecipeButton = styled.div`
-  padding: 0.1vw 2vw;
+  padding: 3vw 2.5vw;
   @media (max-width: 768px) {
-    padding: 0vw 3vw;
+    padding: 0vw 2vw;
   }
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   div {
     width: 100%;
   }
@@ -61,15 +61,16 @@ export const DivRecipeButton = styled.div`
   }
   p {
     color: #1d164d;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
+    letter-spacing: 0.1vw;
     font-weight: 700;
     margin-bottom: 1.5vw;
     margin-top: 0;
   }
   button {
     letter-spacing: 0.1vw;
-    width: 7.8vw;
-    height: 2.7vw;
+    width: 8vw;
+    height: 3vw;
     background-color: #badc58;
     border: 1px solid #badc58;
     border-radius: 5px;

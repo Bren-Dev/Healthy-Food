@@ -20,14 +20,14 @@ export const DivService = styled.div`
     border: 1px solid #badc58;
   }
   h1 {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 900;
     color: #2d3561;
   }
   p {
     color: #9e9baf;
-    font-size: 1.5vw;
-    font-weight: 200;
+    font-size: 1.2vw;
+    font-weight: 400;
   }
 `;
 

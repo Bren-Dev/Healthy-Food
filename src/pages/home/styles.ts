@@ -73,7 +73,7 @@ export const Profile = styled.div`
 export const DivBlog = styled.div`
   h1 {
     color: #1d164d;
-    font-size: 4vw;
+    font-size: 2.5vw;
     margin-top: 0;
     margin-bottom: 0.5vw;
     padding-top: 1rem;
@@ -83,6 +83,8 @@ export const DivBlog = styled.div`
     font-size: 1vw;
     font-weight: normal;
     margin-bottom: 3vw;
+    
+    font-weight: 400;
   }
 
   text-align: center;
